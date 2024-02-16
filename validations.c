@@ -6,7 +6,7 @@
 /*   By: laufarin <laufarin@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 20:12:37 by laufarin          #+#    #+#             */
-/*   Updated: 2024/01/05 20:20:08 by laufarin         ###   ########.fr       */
+/*   Updated: 2024/02/16 10:02:39 by laufarin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -136,7 +136,7 @@ int is_there_some_dup_arg(int argc, char **argv)
 		j = i + 1;
 		while(j < argc)
 		{
-			if(ft_atoi(to_compare) == ft_atoi(argv[j]))
+			if(ft_atoi(to_compare) ==  ft_atoi(argv[j]))
 				return (1); //hay duplciados
 			j++;
 		}
@@ -151,7 +151,7 @@ int is_there_some_dup_arg(int argc, char **argv)
 // ./push_swap 2 1 3 6 5 8
 int check_arguments(int argc, char **argv)
 {
-	if(argc < 2)
+	if(argc < 2)//voy  a ver si no es 3
 		return (1); // Si no hay argumentos se considera todo correcto
 	if(are_not_daminit_enteros(argc, argv))  //Aqui quiero probar si no son enteros
 	{

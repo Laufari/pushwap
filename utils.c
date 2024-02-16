@@ -6,7 +6,7 @@
 /*   By: laufarin <laufarin@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 20:12:37 by laufarin          #+#    #+#             */
-/*   Updated: 2024/01/07 20:55:20 by laufarin         ###   ########.fr       */
+/*   Updated: 2024/02/16 11:33:55 by laufarin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,3 +86,55 @@ int ft_strlen(char *s)
 	return(i);
 }
 
+
+int ft_lstsize(t_stack *a)
+{
+    int i;
+	t_disco	*tmp;
+
+	tmp = a->first;
+    i = 0;
+    while (tmp->next)
+    {
+        i++;
+      
+	   tmp = tmp->next;
+    }
+	a->len = i + 1;
+    return (i);
+}
+
+int	biggest(t_stack	*s)
+{
+	t_disco	*tmp;
+	int	max;
+
+	tmp = s->first;
+	max = tmp->index;
+	while (tmp->next)
+	{
+		tmp = tmp->next;
+		if(tmp->index > max)
+			max = tmp->index;		
+	}
+	return (max);
+}
+
+int	smallest(t_stack *s)
+{
+
+ {
+     t_disco *tmp;
+     int min;
+
+     tmp = s->first;
+     min = tmp->index;
+         while (tmp->next)
+         {
+             tmp = tmp->next;
+             if(tmp->index < min)
+                 min = tmp->index;
+         }
+         return (min);
+ }
+}
