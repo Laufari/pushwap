@@ -8,7 +8,9 @@ YELLOW=\033[1;93m
 
 NAME = push_swap
 
-SRCS = push_swap.c validations.c utils.c movements_sa.c
+SRCS = push_swap.c validations.c validations_1.c utils.c utils_1.c \
+movements_sa.c movements_sb.c r_sort.c sort_2_y_3.c sort_4.c sort_5.c \
+sort_stack.c print_stack.c checkers.c smallest_on_top.c
 
 OBJECTS = $(SRCS:.c=.o)
 
