@@ -9,9 +9,7 @@ ordenar el stack a de menor a mayor y mostrar las instrucciones necesarias para 
 Las instrucciones disponibles son limitadas, y el reto consiste en utilizarlas de manera eficiente.
 
 📂 Estructura
-bash
-Copiar
-Editar
+
 push_swap/
 ├── push_swap.c           # Implementación principal
 ├── stack_utils.c         # Funciones auxiliares para manipular los stacks
@@ -21,22 +19,13 @@ push_swap/
 🛠️ Instalación
 Compilar:
 
-sh
-Copiar
-Editar
 make
 Limpiar archivos:
 
-sh
-Copiar
-Editar
 make clean
 make fclean
 Ejecutar el programa:
 
-sh
-Copiar
-Editar
 ./push_swap 2 1 3 6 5 8
 🎯 Objetivos
 Ordenar una lista de enteros de forma eficiente usando las operaciones mencionadas.
