@@ -8,6 +8,7 @@ El programa debe recibir un conjunto de números enteros como argumento,
 ordenar el stack a de menor a mayor y mostrar las instrucciones necesarias para lograrlo.
 Las instrucciones disponibles son limitadas, y el reto consiste en utilizarlas de manera eficiente.
 
+
 📂 Estructura
 
 push_swap/
@@ -27,6 +28,7 @@ make fclean
 Ejecutar el programa:
 
 ./push_swap 2 1 3 6 5 8
+
 🎯 Objetivos
 Ordenar una lista de enteros de forma eficiente usando las operaciones mencionadas.
 Minimizar el número de instrucciones utilizadas para ordenar el stack a.
