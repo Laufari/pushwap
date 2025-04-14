@@ -33,11 +33,13 @@ Ejecutar el programa:
 Ordenar una lista de enteros de forma eficiente usando las operaciones mencionadas.
 Minimizar el número de instrucciones utilizadas para ordenar el stack a.
 El programa debe manejar errores de entrada y mostrar un mensaje de error adecuado si los argumentos no son correctos.
+
 📝 Reglas
 Las variables globales están prohibidas.
 No debe haber errores de memoria ni condiciones indefinidas.
 El programa debe mostrar la secuencia de instrucciones más corta para ordenar los números.
 En caso de error, se debe imprimir Error en la salida de errores estándar.
 El proyecto debe ser entregado con un Makefile funcional que cumpla con los requisitos especificados.
+
 🎁 Bonus
 Se pueden agregar optimizaciones y mejoras adicionales para lograr un rendimiento superior.
