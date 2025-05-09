@@ -1,4 +1,5 @@
-Push_swap - Algoritmo de Ordenamiento con Instrucciones Limitadas
+#Push_swap 
+- Algoritmo de Ordenamiento con Instrucciones Limitadas
 Descripción: Push_swap es un proyecto que consiste en desarrollar un programa en C que ordene una lista de números enteros
 utilizando dos stacks y un conjunto limitado de instrucciones.
 El objetivo es ordenar los números de manera eficiente con el menor número de operaciones posibles,
