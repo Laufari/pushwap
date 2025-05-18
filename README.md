@@ -44,3 +44,6 @@ El proyecto debe ser entregado con un Makefile funcional que cumpla con los requ
 
 🎁 Bonus
 Se pueden agregar optimizaciones y mejoras adicionales para lograr un rendimiento superior.
+
+![diagram](https://github.com/user-attachments/assets/6aebc3d0-afa4-4041-9997-0b075a1bb731)
+
